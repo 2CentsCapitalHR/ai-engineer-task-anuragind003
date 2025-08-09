@@ -66,16 +66,16 @@ ADGM/
 
 ```mermaid
 graph TD
-  U[Upload .docx files] --> I[Intake & classify<br/>(keywords → LLM fallback)]
-  I --> P[Process detect]
-  P --> C[Checklist verify]
-  I --> L[Compliance check (LLM+RAG)]
-  R[FAISS Retriever] --> L
-  S[References + sources.json] -->|ingest_refs.py| R
-  L --> A[Annotate .docx]
-  C --> RPT[Build JSON report]
+  U["Upload .docx files"] --> I["Intake and classify (keywords -> LLM fallback)"]
+  I --> P["Process detect"]
+  P --> C["Checklist verify"]
+  I --> L["Compliance check (LLM+RAG)"]
+  R["FAISS Retriever"] --> L
+  S["References + sources.json"] -->|ingest_refs.py| R
+  L --> A["Annotate .docx"]
+  C --> RPT["Build JSON report"]
   L --> RPT
-  A --> D[Downloads]
+  A --> D["Downloads"]
   RPT --> D
 ```
 
@@ -180,16 +180,14 @@ Tip: Use `scripts/generate_sample_docs.py` to create example inputs in `data/upl
 - **Structured output report** (JSON): `data/outputs/<task_id>.json`
   - The JSON includes: detected process, uploaded/required counts, missing documents, issues (severity, suggestions, citations), generated filenames, optional process confidence, and per-document summaries.
 
-### Screenshots / Demo Video (placeholders)
+### Screenshots / Demo Video
 
-- Screenshot 1: Upload tab — drag & drop `.docx` files and Analyze
-  - [Add image here]
-- Screenshot 2: Review tab — checklist banner, issues list, and summaries
-  - [Add image here]
-- Screenshot 3: Downloads tab — reviewed `.docx` and JSON
-  - [Add image here]
-- Demo video: end-to-end walkthrough
-  - https://youtu.be/8yImoXR274s
+- Uploads: ![Uploads](assets/Uploads.png)
+- Review: ![Review](assets/Review.png)
+- Summary: ![Summary](assets/Summary.png)
+- Downloads: ![Downloads](assets/Downloads.png)
+- Demo video: end-to-end walkthrough — [YouTube](https://youtu.be/8yImoXR274s)
+- Demo video: end-to-end walkthrough — [YouTube](assets/ADGM-Corporate-Agent-Demo.mp4)
 
 ## Output
 
