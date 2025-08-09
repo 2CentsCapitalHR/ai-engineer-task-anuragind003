@@ -186,8 +186,8 @@ Tip: Use `scripts/generate_sample_docs.py` to create example inputs in `data/upl
 - Review: ![Review](assets/Review.png)
 - Summary: ![Summary](assets/Summary.png)
 - Downloads: ![Downloads](assets/Downloads.png)
-- Demo video: end-to-end walkthrough — [YouTube](https://youtu.be/8yImoXR274s)
-- Demo video: end-to-end walkthrough — [YouTube](assets/ADGM-Corporate-Agent-Demo.mp4)
+- Demo video: end-to-end walkthrough — [YouTube Link](https://youtu.be/8yImoXR274s)
+- Demo video: end-to-end walkthrough — [Download Video](assets/ADGM-Corporate-Agent-Demo.mp4)
 
 ## Output
 
