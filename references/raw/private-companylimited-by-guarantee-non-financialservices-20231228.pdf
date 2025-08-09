@@ -1,0 +1,1186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/js/adgm-components.umd-210726.js"></script>
+    <link rel="shortcut icon" href="/Adgm/images/favicon.png" type="image/x-icon" />
+    <script src="/js/ADGM/jQuery.js"></script>
+    <script src="/js/lib/mustache.js"></script>
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/ADGM/Forms/style.css" rel="stylesheet" />
+    <link href="/css/ADGM/loader.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+
+
+
+    <title>Document Repository | ADGM</title>
+    <meta name="description" content="Access a wide range of resources in the ADGM Document Repository, including regulatory updates, templates, and essential documents. Stay informed with the latest materials." />
+    <meta key="keywords" name="keywords" />
+    <link rel="canonical" href="https://www.adgm.com/document-repository">
+            <link rel="alternate" href="https://www.adgm.com/document-repository" hreflang="en" />
+    <!-- Robots -->
+            <meta key="robots" name="robots" content="index, follow" />
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Document Repository | ADGM">
+    <meta property="og:url" content="https://www.adgm.com/document-repository">
+    <meta property="og:description" content="Access a wide range of resources in the ADGM Document Repository, including regulatory updates, templates, and essential documents. Stay informed with the latest materials.">
+    <meta property="og:type">
+    <!-- Twitter meta tags -->
+    <meta name="twitter:title" content="Document Repository | ADGM">
+    <meta name="twitter:description" content="Access a wide range of resources in the ADGM Document Repository, including regulatory updates, templates, and essential documents. Stay informed with the latest materials.">
+    <meta name="twitter:card">
+    <meta name="twitter:site" content="ADGM">
+    <meta name="twitter:properties">
+    <meta name="twitter:url" content="https://www.adgm.com/document-repository">
+    <meta property="article:author" content="">
+    <meta property="article:published_time" content="08/08/2024 11:25:16 AM">
+
+ <!-- Verification code is missing -->
+     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJKKFG7');</script>
+
+
+    <link href="/css/main.css" rel="stylesheet" />
+
+
+    <div class="leader-modal modal-hidden">
+        <div class="leader-modal__container">
+            <div class="loader-sec"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /* Loading Stuff*/
+        function showLoading() {
+            var loadingCheck = document.getElementById("leader-modal");
+            if (loadingCheck == null || loadingCheck == undefined) {
+
+                const scrollHide = document.querySelector('body');
+                scrollHide.style.overflow = 'hidden';
+
+                const loadingDiv = document.createElement('div');
+                loadingDiv.setAttribute("id", "leader-modal");
+                loadingDiv.setAttribute("class", "leader-modal active");
+
+                const loadingContainer = document.createElement('div');
+                loadingContainer.setAttribute("class", "leader-modal__container active");
+
+                const loadingImage = document.createElement('div');
+                loadingImage.setAttribute("class", "loader-sec");
+                loadingImage.style.visibility = "visible";
+
+                loadingContainer.appendChild(loadingImage);
+                loadingDiv.appendChild(loadingContainer);
+
+                var loadingMaster = document.getElementById("loading-master");
+                loadingMaster.appendChild(loadingDiv);
+            }
+        }
+
+        function hideLoading() {
+            const scrollHide = document.querySelector('body');
+            scrollHide.style.overflow = 'auto';
+            const loadingMaster = document.getElementById("loading-master");
+            loadingMaster.innerText = '';
+        }
+    </script>
+    <!--Application Insights-->
+<script>
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: { instrumentationKey:'7d6f3f3f-e2c9-47eb-8779-8b867d3a0b4c', disableCookiesUsage: true }});
+</script>
+</head>
+<body style="margin: 0px;">
+
+
+    <div id="loading-master"></div>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJKKFG7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <adgm-application font-path="/fonts/">
+        <adgm-page>
+
+        <adgm-navigation float="true" 
+        >
+
+                                               <adgm-navigation-item title="About" href="/about/the-abu-dhabi-lifestyle" key="About">
+                                                                            <a href="/about"
+                                    >Overview</a>
+                                                                            <a href="/about/jurisdiction"
+                                    >Jurisdiction</a>
+                                                                            <a href="/about/authorities"
+                                    >Authorities</a>
+                                                                            <a href="/initiatives"
+                                    >Initiatives</a>
+                                                                            <a href="https://www.adgmacademy.com"
+                                     target="_blank" >ADGM Academy</a>
+                                                                            <a href="https://disputeresolution.adgm.com"
+                                     target="_blank" >Dispute Resolution</a>
+                                               </adgm-navigation-item>
+                                               <adgm-navigation-item-content slot="About">
+                                                    <div>
+                                                         <adgm-text variant="text2XL" weight="300">
+                                    A platform that offers limitless opportunities and paves the way for a brighter future
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-text variant="textS" weight="300">
+                                    
+<p>Abu Dhabi boasts first-class infrastructure and unparalleled global connectivity, making it a premier international destination. Its exceptional qualities make it an ideal location to live, work, and conduct business.</p>
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-link-button href="/about/the-abu-dhabi-lifestyle" target="_self" icon="arrowM" size="s" variant="secondary" anim>
+                                    Read about Abu Dhabi&#x27;s life style
+                                                         </adgm-link-button>
+                                                     </div>
+
+                                                    <div>
+                                                          <adgm-text variant="text2XL" weight="300">
+                                    Latest Initiatives
+                                                          </adgm-text>
+                                                          <adgm-spacer height="rBodyM"></adgm-spacer>
+
+                                                                             <adgm-flex direction="row" gap="s16">
+                                                                                         <adgm-highlight-card href="/media/announcements/adgms-2024-performance-with-245-growth-in-aums-highlights-global-influence"
+                                                 style="display : block;" 
+                                                                                                 chip='ADGM'
+                                                                                                 date='27 Feb 2025'
+                                                                                                 variant='primary'>                                                                                                          <adgm-image slot="image" src='https://assets.adgm.com/images/assets/840x452-media-announcement-banner-2.jpg/Zz0xMDE4ZmNlMDc3NDExMWVmYTE2NTQ2NGUzZjg1MDQ1Yg==' blur-hash="" alt="ADGM&#x2019;s 2024 Performance With 245% Growth in AUMs Highlights Global Influence"></adgm-image>
+ADGM&#x2019;s 2024 Performance With 245% Growth in AUMs Highlights Global Influence                                                                                         </adgm-highlight-card>
+                                                                                         <adgm-highlight-card href="/media/announcements/adgm-completes-al-reem-island-integration-adding-over-1100-entities-to-its-jurisdiction"
+                                                 style="display : block;" 
+                                                                                                 chip='ADGM'
+                                                                                                 date='24 Feb 2025'
+                                                                                                 variant='primary'>                                                                                                          <adgm-image slot="image" src='https://assets.adgm.com/images/assets/840x452-media-announcement-banner-6.jpg/Zz0yZjA0ZDUyZTgwYjYxMWVmYTQ4NWQyZGNjOTI4ODUyMQ==' blur-hash="" alt="ADGM Completes Al Reem Island Integration, Adding Over 1,100 Entities to its Jurisdiction"></adgm-image>
+ADGM Completes Al Reem Island Integration, Adding Over 1,100 Entities to its Jurisdiction                                                                                         </adgm-highlight-card>
+                                                                            </adgm-flex>
+
+
+                                                    </div>
+                                                </adgm-navigation-item-content>
+                                               <adgm-navigation-item title="Business" href="/setting-up" key="Business">
+                                                                            <a href="/business"
+                                    >Overview</a>
+                                                                            <a href="/business-areas"
+                                    >Business Areas</a>
+                                                                            <a href="/setting-up"
+                                    >Setting up</a>
+                                                                            <a href="/operating-in-adgm"
+                                    >Operating in</a>
+                                                                            <a href="/public-registers"
+                                    >Public Registers</a>
+                                                                            <a href="/legal-framework"
+                                    >Legal Framework</a>
+                                               </adgm-navigation-item>
+                                               <adgm-navigation-item-content slot="Business">
+                                                    <div>
+                                                         <adgm-text variant="text2XL" weight="300">
+                                    Providing an environment that empowers the future
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-text variant="textS" weight="300">
+                                    
+<p>A financial centre that provides transparency, efficiency, and integrity, through its progressive frameworks, future focused infrastructure, all within a familiar independent legal jurisdiction &ndash; ADGM is the perfect platform for success.</p>
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-link-button href="/setting-up" target="_self" icon="arrowM" size="s" variant="secondary" anim>
+                                    Find out how to set up in ADGM
+                                                         </adgm-link-button>
+                                                     </div>
+
+                                                    <div>
+                                                          <adgm-text variant="text2XL" weight="300">
+                                    Latest News
+                                                          </adgm-text>
+                                                          <adgm-spacer height="rBodyM"></adgm-spacer>
+
+                                                                             <adgm-flex direction="row" gap="s16">
+                                                                                         <adgm-highlight-card href="/media/announcements/adgms-4th-annual-summer-internship-programme-celebrates-community-and-collaboration"
+                                                 style="display : block;" 
+                                                                                                 chip='ADGM'
+                                                                                                 date='05 Aug 2025'
+                                                                                                 variant='primary'>                                                                                                          <adgm-image slot="image" fit="cover" src='https://assets.adgm.com/images/assets/adgm-internship-2025-871x491.jpg/Zz0yOTI2NWM4ZTcxYzYxMWYwOTk5MDNhOTNkNzUxOTUxZg==' blur-hash="" alt="ADGM&#x27;s 4th Annual Summer Internship Programme Celebrates Community and Collaboration"></adgm-image>
+ADGM&#x27;s 4th Annual Summer Internship Programme Celebrates Community and Collaboration                                                                                         </adgm-highlight-card>
+                                                                                         <adgm-highlight-card href="/media/announcements/adfw-2025-set-to-double-in-size-at-new-location"
+                                                 style="display : block;" 
+                                                                                                 chip='ADGM'
+                                                                                                 date='01 Aug 2025'
+                                                                                                 variant='primary'>                                                                                                          <adgm-image slot="image" fit="cover" src='https://assets.adgm.com/images/assets/adfw-thumbnail-871x491.jpg/Zz02YTg3YTZjZTZlYTYxMWYwODI2MDJlODNkZmEzYjYyZQ==' blur-hash="" alt="Under the Patronage of His Highness Sheikh Khaled bin Mohamed bin Zayed Al Nahyan, ADFW 2025 Set to Double in Size at New Location"></adgm-image>
+Under the Patronage of His Highness Sheikh Khaled bin Mohamed bin Zayed Al Nahyan, ADFW 2025 Set to Double in Size at New Location                                                                                         </adgm-highlight-card>
+                                                                            </adgm-flex>
+
+
+                                                    </div>
+                                                </adgm-navigation-item-content>
+                                               <adgm-navigation-item title="eServices" href="https://accessrp.adgm.com" key="eServices">
+                                                                            <a href="/operating-in-adgm/e-services/accessrp"
+                                    >AccessRP</a>
+                                                                            <a href="/operating-in-adgm/e-services/accessadgm-government-services-portal"
+                                    >ACCESSADGM</a>
+                                                                            <a href="/operating-in-adgm/e-services/online-registry-solution"
+                                    >Online Registry Solution</a>
+                                                                            <a href="/operating-in-adgm/e-services/electronic-prudential-reporting"
+                                    >Electronic Prudential Reporting</a>
+                                                                            <a href="/operating-in-adgm/e-services/fsra-connect"
+                                    >FSRA Connect</a>
+                                               </adgm-navigation-item>
+                                               <adgm-navigation-item-content slot="eServices">
+                                                    <div>
+                                                         <adgm-text variant="text2XL">
+                                    All Your Real Property Needs in One Platform on AccessRP
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-text>
+                                    
+<p>AccessRP is a next-generation digital platform transforming the real estate experience in ADGM. Designed to streamline interactions across the ecosystem, AccessRP brings together landlords, developers, and tenants in one seamless environment, providing real-time access to services, data, and insights.</p>
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-link-button href="https://accessrp.adgm.com" target="_self" icon="arrowM" size="s" variant="secondary" anim>
+                                    Explore AccessRP
+                                                         </adgm-link-button>
+                                                     </div>
+
+                                                    <div>
+                                                          <adgm-text variant="text2XL" weight="300">
+                                    Latest News
+                                                          </adgm-text>
+                                                          <adgm-spacer height="rBodyM"></adgm-spacer>
+
+                                                                             <adgm-flex direction="row" gap="s16">
+                                                                                         <adgm-highlight-card href="/media/announcements/adgms-4th-annual-summer-internship-programme-celebrates-community-and-collaboration"
+                                                 style="display : block;" 
+                                                                                                 chip='ADGM'
+                                                                                                 date='05 Aug 2025'
+                                                                                                 variant='primary'>                                                                                                          <adgm-image slot="image" fit="cover" src='https://assets.adgm.com/images/assets/adgm-internship-2025-871x491.jpg/Zz0yOTI2NWM4ZTcxYzYxMWYwOTk5MDNhOTNkNzUxOTUxZg==' blur-hash="" alt="ADGM&#x27;s 4th Annual Summer Internship Programme Celebrates Community and Collaboration"></adgm-image>
+ADGM&#x27;s 4th Annual Summer Internship Programme Celebrates Community and Collaboration                                                                                         </adgm-highlight-card>
+                                                                                         <adgm-highlight-card href="/media/announcements/adfw-2025-set-to-double-in-size-at-new-location"
+                                                 style="display : block;" 
+                                                                                                 chip='ADGM'
+                                                                                                 date='01 Aug 2025'
+                                                                                                 variant='primary'>                                                                                                          <adgm-image slot="image" fit="cover" src='https://assets.adgm.com/images/assets/adfw-thumbnail-871x491.jpg/Zz02YTg3YTZjZTZlYTYxMWYwODI2MDJlODNkZmEzYjYyZQ==' blur-hash="" alt="Under the Patronage of His Highness Sheikh Khaled bin Mohamed bin Zayed Al Nahyan, ADFW 2025 Set to Double in Size at New Location"></adgm-image>
+Under the Patronage of His Highness Sheikh Khaled bin Mohamed bin Zayed Al Nahyan, ADFW 2025 Set to Double in Size at New Location                                                                                         </adgm-highlight-card>
+                                                                            </adgm-flex>
+
+
+                                                    </div>
+                                                </adgm-navigation-item-content>
+                                               <adgm-navigation-item title="Discover" href="/media" key="Discover">
+                                                                            <a href="/media"
+                                    >Media</a>
+                                                                            <a href="/media/announcements"
+                                    >News</a>
+                                                                            <a href="/events"
+                                    >Events</a>
+                                                                            <a href="/spotlight"
+                                    >Spotlight</a>
+                                                                            <a href="/think-by-adgm"
+                                    >Podcasts</a>
+                                                                            <a href="/media/publications"
+                                    >Publications</a>
+                                               </adgm-navigation-item>
+                                               <adgm-navigation-item-content slot="Discover">
+                                                    <div>
+                                                         <adgm-text variant="text2XL" weight="300">
+                                    Stay up-to-date with our wide range of available resources
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-text variant="textS" weight="300">
+                                    
+<p>Our community of business professionals, entrepreneurs, and investors can depend on ADGM to provide timely news and reliable insights.</p>
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-link-button href="/media" target="_self" icon="arrowM" size="s" variant="secondary" anim>
+                                    Read our latest news articles
+                                                         </adgm-link-button>
+                                                     </div>
+
+                                                    <div>
+                                                          <adgm-text variant="text2XL" weight="300">
+                                    Upcoming Events
+                                                          </adgm-text>
+                                                          <adgm-spacer height="rBodyM"></adgm-spacer>
+
+
+                                                                           <adgm-flex direction="column" gap="s16">
+                                                                                      <adgm-event-card date-month='Dec'
+                                                                                                date-day='08-11'
+                                                                                                location='Al Maryah Island, Abu Dhabi'
+                                                                                                href='https://www.adfw.com/'  target="_blank" >
+                                                    ADFW 2025
+                                                                                      </adgm-event-card>
+                                                                                      <adgm-event-card date-month='Dec'
+                                                                                                date-day='10'
+                                                                                                location='Al Maryah Island, Abu Dhabi'
+                                                                                                href='https://www.adfw.com/events/resolve'  target="_blank" >
+                                                    RESOLVE 2025
+                                                                                      </adgm-event-card>
+                                                                                      <adgm-event-card date-month='Jan'
+                                                                                                date-day='28-30'
+                                                                                                location='Abu Dhabi'
+                                                                                                href='/events/27th-annual-iba-arbitration-day-conference' >
+                                                    27th Annual IBA Arbitration Day Conference
+                                                                                      </adgm-event-card>
+                                                                           </adgm-flex>
+
+                                                    </div>
+                                                </adgm-navigation-item-content>
+                                               <adgm-navigation-item title="Contact &amp; Support" href="/contact-us" key="Contact &amp; Support">
+                                                                            <a href="/contact-us"
+                                    >Support</a>
+                                                                            <a href="/contact-us/make-an-enquiry"
+                                    >Make an enquiry</a>
+                                                                            <a href="/contact-us/speaking-up"
+                                    >Speaking Up</a>
+                                                                            <a href="/faqs"
+                                    >FAQs</a>
+                                               </adgm-navigation-item>
+                                               <adgm-navigation-item-content slot="Contact &amp; Support">
+                                                    <div>
+                                                         <adgm-text variant="text2XL" weight="300">
+                                    We are here to help
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-text variant="textS" weight="300">
+                                    
+<p>At ADGM, we offer various support options, including contact details, FAQs, enquiry forms, and a whistleblowing form.</p>
+                                                         </adgm-text>
+                                                         <adgm-spacer height="rBodyM"></adgm-spacer>
+                                                         <adgm-link-button href="/contact-us" target="_self" icon="arrowM" size="s" variant="secondary" anim>
+                                    View available support options
+                                                         </adgm-link-button>
+                                                     </div>
+
+                                                    <div>
+                                                          <adgm-text variant="text2XL" weight="300">
+                                    Some of our FAQ topics
+                                                          </adgm-text>
+                                                          <adgm-spacer height="rBodyM"></adgm-spacer>
+
+                                                                             <adgm-flex direction="row" gap="s16">
+                                                                                         <adgm-highlight-card href="/faqs/setting-up"
+                                                
+                                                                                                 chip='Setting up'
+                                                                                                 date='1 January 0001'
+                                                                                                 variant='secondary'>                                                                                                           <adgm-ul slot="content">
+                                                                                                                       <li>Getting started</li>
+                                                                                                                       <li>Foundations regime</li>
+                                                                                                                       <li>Resolution for incorporation</li>
+                                                                                                           </adgm-ul>
+                                                                                         </adgm-highlight-card>
+                                                                                         <adgm-highlight-card href="/faqs/operating-in-adgm"
+                                                
+                                                                                                 chip='Operating in'
+                                                                                                 date='1 January 0001'
+                                                                                                 variant='secondary'>                                                                                                           <adgm-ul slot="content">
+                                                                                                                       <li>Existing auditors</li>
+                                                                                                                       <li>New auditors</li>
+                                                                                                                       <li>ACCESSADGM</li>
+                                                                                                           </adgm-ul>
+                                                                                         </adgm-highlight-card>
+                                                                            </adgm-flex>
+
+
+                                                    </div>
+                                                </adgm-navigation-item-content>
+
+                </adgm-navigation>
+
+<script>
+    function eventCardAlignment() {
+        const eventCard = document.querySelectorAll('adgm-event-card');
+
+        if (eventCard) {
+            eventCard.forEach(item => {
+                item.shadowRoot.querySelector('.date').setAttribute("style", "width: 90px !important;");
+            });
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        eventCardAlignment();
+    });
+</script>
+            
+
+
+
+
+	<span>
+		<span>
+        <adgm-hero size='s' color='Sky100'>
+                    <div slot="content">
+                            <adgm-text variant='heroTitleS' >
+                                <h1>Document Repository</h1>
+                            </adgm-text>
+                    </div>
+        </adgm-hero>
+</span>
+	
+		<span>
+
+
+
+<adgm-container>
+    <adgm-breadcrumbs>
+                        <adgm-breadcrumb>Document Repository</adgm-breadcrumb>
+
+    </adgm-breadcrumbs>
+</adgm-container>
+
+<adgm-spacer height="s80"></adgm-spacer>
+
+</span>
+	
+		<span>
+<adgm-section variant='primary'>
+        <adgm-container>
+            
+<div>
+    <adgm-message variant="info">
+            <adgm-text weight="600" variant="textS">
+                Note
+                    </adgm-text>
+            <adgm-spacer height="s4"></adgm-spacer>
+            <adgm-text weight="400"
+            variant="textS">
+                
+<div><adgm-body>
+<p>We are in the process of updating the resources in our Document Repository. If you are no longer able to find your referenced document, please use the search bar below to locate it. If you are unable to locate the required document, please contact us via&nbsp;<a href="/contact-us/"><u>the designated channels here</u></a>.</p>
+</adgm-body></div>
+                    </adgm-text>
+    </adgm-message>
+</div><div>
+    <adgm-spacer height='rBodyM'></adgm-spacer>
+</div>
+        </adgm-container>
+
+</adgm-section></span>
+	
+		<span>
+
+    <adgm-container>
+        <adgm-text-input style="width: 100%;" placeholder="Search" name="filter.query" id="OhnRM_searchInput">
+            <adgm-icon icon="search" slot="post"></adgm-icon>
+        </adgm-text-input>
+        <adgm-filter-provider total-results='4494'
+                              items-per-page='10'
+                              current-page='1'
+                              onchange="DocumentRepositoryfilterchanged(this.getValues(), 'OhnRM')" id="OhnRM_filterproviderid">
+
+            <adgm-dropdown slot="sorting"
+                           name="sorting.per_page"
+                           placeholder="Results per Page"
+                           pre="Results per Page:"
+                           variant="tertiary"
+                           size="s"
+                           popup-width="auto"
+                           popup-align="right"
+                           value='10'>
+                            <adgm-dropdown-option value="10">10</adgm-dropdown-option>
+                            <adgm-dropdown-option value="20">20</adgm-dropdown-option>
+                            <adgm-dropdown-option value="80">80</adgm-dropdown-option>
+            </adgm-dropdown>
+        </adgm-filter-provider>
+
+        <adgm-spacer height="rBodyL"></adgm-spacer>
+
+        <adgm-table mode="display" min-width="" cell-vertical-align="middle" id="OhnRM_table" style="width: 100%;table-layout: fixed;">
+            <adgm-table-row>
+                
+                <adgm-table-header-cell width="70%"> Document title</adgm-table-header-cell>
+                <adgm-table-header-cell width="15%"> Tags</adgm-table-header-cell>
+                <adgm-table-header-cell width="15%"> Date</adgm-table-header-cell>
+            </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250807&#x2B;-&#x2B;Critical&#x2B;Vulnerability&#x2B;in&#x2B;Exchange&#x2B;Hybrid&#x2B;Deployments.pdf/00907c3e741211f08bf54a74247ca52a'>20250807 - Critical Vulnerability in Exchange Hybrid Deployments.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>08 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250807&#x2B;-&#x2B;Critical&#x2B;Zero-Day&#x2B;Vulnerabilities&#x2B;in&#x2B;Adobe&#x2B;Experience&#x2B;Manager&#x2B;%28AEM%29.pdf/00a28190741211f08aaa86f6c813b397'>20250807 - Critical Zero-Day Vulnerabilities in Adobe Experience Manager (AEM).pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>08 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250807&#x2B;-&#x2B;Critical&#x2B;Vulnerability&#x2B;in&#x2B;Everest&#x2B;Forms&#x2B;Plugin.pdf/00932434741211f09fd04a74247ca52a'>20250807 - Critical Vulnerability in Everest Forms Plugin.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>08 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250806&#x2B;-&#x2B;High-Severity_Flaws_in_Rockwell_Arena_Simulation.pdf/c0408282734911f0a789caf62656b070'>20250806 - High-Severity_Flaws_in_Rockwell_Arena_Simulation.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>07 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250806&#x2B;-&#x2B;Security&#x2B;Updates&#x2B;Google&#x2B;Chrome.pdf/c047d226734911f094d8527dda5addc5'>20250806 - Security Updates Google Chrome.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>07 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250806&#x2B;-&#x2B;Actively_Exploited_Critical_Flaws_in_Trend_Micro_Apex_One.pdf/c0775ab4734911f08f89a66e930bc9d9'>20250806 - Actively_Exploited_Critical_Flaws_in_Trend_Micro_Apex_One.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>07 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/ADGM&#x2B;Supplier&#x2B;Code&#x2B;of&#x2B;Conduct.pdf/908ab65672b911f092aecaf810035627'>ADGM Supplier Code of Conduct.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>06 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/ADGM&#x2B;DNFBPs&#x2B;Common&#x2B;Findings&#x2B;Report.pdf/428c5a14688b11f0aacd32de835198fe'>ADGM DNFBPs Common Findings Report.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>06 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250805&#x2B;-&#x2B;Security_Updates_-_Huawei.pdf/4a71dcd4727e11f080d062a27ef1dcd2'>20250805 - Security_Updates_-_Huawei.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>06 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+                    <adgm-table-row class="removable_element">
+                        <adgm-table-cell class="table-cell-wrap" target="_blank" href='https://assets.adgm.com/download/assets/20250805&#x2B;-&#x2B;Security&#x2B;Updates&#x2B;-&#x2B;Android.pdf/4a7d3b06727e11f08c0c0246870aa9fb'>20250805 - Security Updates - Android.pdf</adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" ></adgm-table-cell>
+                        <adgm-table-cell class="table-cell-wrap" no-wrap>06 Aug 2025</adgm-table-cell>
+                    </adgm-table-row>
+        </adgm-table>
+
+        <adgm-message id="OhnRM_noResultsRow" style="display:none;">
+                <adgm-text weight="600" variant="textS">
+                    Nothing found
+                </adgm-text>
+                <adgm-text weight="400" variant="textS">
+                    No results were found. Please adjust your filters.
+                </adgm-text>
+        </adgm-message>
+        
+        <adgm-pagination id="OhnRM_pagination" total-items='4494' items-per-page='10' current-page='1' onchange="DocumentRepositorypagechanged(this.getPage(), 'OhnRM')">
+            <adgm-spacer height="rBodyL"></adgm-spacer>
+        </adgm-pagination>
+        <adgm-spacer height="rBodyL"></adgm-spacer>
+    </adgm-container>
+
+<script type="text/javascript">
+
+
+    var prevquery = window.prevquery || {};
+    prevquery["OhnRM"] = prevquery["OhnRM"] || "";
+
+    var doctags = window.doctags || {};
+    doctags["OhnRM"] = doctags["OhnRM"] || [];
+
+
+    var currentpage = window.currentpage || {};
+    currentpage["OhnRM"] = currentpage["OhnRM"] || "1";
+
+
+    var itemsperpage = window.itemsperpage || {};
+    itemsperpage["OhnRM"] = itemsperpage["OhnRM"] || "10";
+
+    var sort_by = window.sort_by || {};
+    sort_by["OhnRM"] = sort_by["OhnRM"] || "titleaz";
+
+    var tableupdated = window.tableupdated || {};
+    tableupdated["OhnRM"] = tableupdated["OhnRM"] || true;
+
+    var Documenttitle = window.Documenttitle || {};
+    Documenttitle["OhnRM"] = Documenttitle["OhnRM"] || "Document title";
+
+    var TagsColumnTitle = window.TagsColumnTitle || {};
+    TagsColumnTitle["OhnRM"] = TagsColumnTitle["OhnRM"] || "Tags";
+
+    var DateColumnTitle = window.DateColumnTitle || {};
+    DateColumnTitle["OhnRM"] = DateColumnTitle["OhnRM"] || "Date";
+
+    var DocumentTitleWidth = window.DocumentTitleWidth || {};
+    DocumentTitleWidth["OhnRM"] = DocumentTitleWidth["OhnRM"] || "70";
+    
+    var TagsColumnWidth = window.TagsColumnWidth || {};
+    TagsColumnWidth["OhnRM"] = TagsColumnWidth["OhnRM"] || "15";
+    
+    var DateColumnWidth = window.DateColumnWidth || {};
+    DateColumnWidth["OhnRM"] = DateColumnWidth["OhnRM"] || "15";
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // DocumentRepositoryGetDataFromAjaxCall("OhnRM");
+        var searchInput = document.getElementById("OhnRM" + "_searchInput");
+
+        if (searchInput) {
+
+            searchInput.addEventListener("keyup", function (event) {
+                if (event.keyCode === 13 || document.getElementById("OhnRM" + "_searchInput")?.shadowRoot.querySelector('input').value === "") {
+                    if (prevquery["OhnRM"] !== document.getElementById("OhnRM" + "_searchInput")?.shadowRoot.querySelector('input').value) {
+                        prevquery["OhnRM"] = document.getElementById("OhnRM" + "_searchInput")?.shadowRoot.querySelector('input').value;
+                        currentpage["OhnRM"] = '1';
+                        DocumentRepositoryGetDataFromAjaxCall("OhnRM");
+                    }
+                }
+            });
+
+            var adgmIcon = searchInput.querySelector("adgm-icon");
+
+            if (adgmIcon) {
+                adgmIcon.addEventListener("click", function () {
+                    if (prevquery["OhnRM"] !== document.getElementById("OhnRM" + "_searchInput")?.shadowRoot.querySelector('input').value) {
+                        prevquery["OhnRM"] = document.getElementById("OhnRM" + "_searchInput")?.shadowRoot.querySelector('input').value;
+                        currentpage["OhnRM"] = '1';
+                        DocumentRepositoryGetDataFromAjaxCall("OhnRM");
+                    }
+                });
+
+                adgmIcon.addEventListener("touchstart", function () {
+                    if (prevquery["OhnRM"] !== document.getElementById("OhnRM" + "_searchInput")?.shadowRoot.querySelector('input').value) {
+                        prevquery["OhnRM"] = document.getElementById("OhnRM" + "_searchInput")?.shadowRoot.querySelector('input').value;
+                        currentpage["OhnRM"] = '1';
+                        DocumentRepositoryGetDataFromAjaxCall("OhnRM");
+                    }
+                });
+
+                adgmIcon.style.pointerEvents = 'auto';
+                adgmIcon.style.cursor = 'pointer';
+            } else {
+                console.error('adgm-icon element not found');
+            }
+        } else {
+            console.error('searchInput element not found');
+        }
+    });
+    // Function to find and update or insert the heading
+    function updateOrInsertHeading(ShadowRootElement, text, componentId, width ) {
+
+        const headingDiv = ShadowRootElement.querySelector('adgm-visibility');
+        const contentDiv = ShadowRootElement.querySelector('.content');
+
+        if (!tableupdated[componentId]) {
+            const hidvis = document.createElement('adgm-visibility')
+            hidvis.setAttribute("hide", "m");
+            const newHeadingDiv = document.createElement('div');
+            newHeadingDiv.className = 'heading';
+            newHeadingDiv.textContent = text;
+            newHeadingDiv.style.width = width+"%";
+
+            hidvis.appendChild(newHeadingDiv);
+            const cellContent = ShadowRootElement.querySelector('.content');
+            const heading = cellContent.querySelector('.heading')
+            if (!(cellContent && heading)) {
+                cellContent.insertBefore(hidvis, cellContent.firstChild.nextSibling);
+            }
+        }
+    }
+
+    function UpdateOfficeRegulatoryActionList(componentId) {
+        console.log("UpdateOfficeRegulatoryActionList called!");
+        const tableElement = document.getElementById(componentId + "_table");
+       
+        if (tableElement && tableElement.updateComplete) {
+            tableElement.updateComplete.then(() => {
+
+                const sample = tableElement.querySelectorAll(".removable_element")
+                const sampleArray = Array.from(sample);
+
+                if (sampleArray.length > 0) {
+                    sampleArray.forEach((item, idx) => {
+                        if (item.updateComplete) {
+                            item.updateComplete.then(() => {
+                                const cells = item.querySelectorAll("adgm-table-cell");
+                                if (cells) {
+                                    cells.forEach((inneritem, cellIndex) => {
+                                        if (inneritem.updateComplete) {
+                                            inneritem.updateComplete.then(() => {
+                                                let shadowRootvariable = inneritem.shadowRoot;
+
+                                                switch (cellIndex) {
+                                                    case 0:
+                                                        updateOrInsertHeading(shadowRootvariable, Documenttitle[componentId], componentId, DocumentTitleWidth)
+                                                        break;
+                                                    case 1:
+                                                        updateOrInsertHeading(shadowRootvariable, TagsColumnTitle[componentId], componentId, TagsColumnWidth)
+                                                        break;
+                                                    case 2:
+                                                        updateOrInsertHeading(shadowRootvariable, DateColumnTitle[componentId], componentId, DateColumnWidth)
+                                                        break;
+                                                    default:
+                                                        break;
+                                                }
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        } else {
+                            console.warn("updateComplete not available for:", item);
+                        }
+                    });
+                }
+            });
+        }
+    }
+
+    function DocumentRepositoryfilterchanged(values, componentId) {
+        let callapi = false;
+
+        if (values.sorting.per_page !== itemsperpage[componentId]) {
+            callapi = true;
+            itemsperpage[componentId] = values.sorting.per_page
+            currentpage[componentId] = '1';
+        }
+
+        if (values.sorting.sort_by !== sort_by[componentId]) {
+            callapi = true;
+            sort_by[componentId] = values.sorting.sort_by
+            currentpage[componentId] = '1';
+        }
+
+        if (values.filter && values.filter.tags) {
+            if (!compareArrays(values.filter.tags, doctags[componentId])) {
+                callapi = true;
+            }
+            doctags[componentId] = values.filter.tags;
+        }
+        else {
+            if (!compareArrays([], doctags[componentId])) {
+                callapi = true;
+            }
+            doctags[componentId] = [];
+        }
+
+        if (callapi) {
+            DocumentRepositoryGetDataFromAjaxCall(componentId);
+        }
+    }
+
+    function DocumentRepositorypagechanged(thispage, componentId) {
+        if (Number(currentpage[componentId]) !== thispage) {
+            currentpage[componentId] = thispage.toString();
+            DocumentRepositoryGetDataFromAjaxCall(componentId);
+        }
+    }
+
+    function DocumentRepositorycreateTableRow(item) {
+        // Create the row element
+        var row = document.createElement('adgm-table-row');
+        row.classList.add('removable_element');
+
+        
+        var cell1 = document.createElement('adgm-table-cell');
+        cell1.setAttribute('target', '_blank');
+        cell1.setAttribute('href', item.DocumentUrl);
+        cell1.innerText = item.DocumentTitle;
+
+        
+        cell1.setAttribute("class", "table-cell-wrap")
+
+        row.appendChild(cell1);
+
+        
+        var cell2 = document.createElement('adgm-table-cell');
+        cell2.innerText = item.DocumentTags;
+
+        
+        cell2.style.whiteSpace = 'normal';
+        cell2.style.overflowWrap = 'break-word';
+        cell2.style.wordBreak = 'break-word';
+        cell2.setAttribute("class", "table-cell-wrap")
+        row.appendChild(cell2);
+
+        // Create the third cell with UploadDate
+        var cell3 = document.createElement('adgm-table-cell');
+
+        cell3.innerText = new Date(item.UploadDate).toLocaleDateString('en-US', {
+            weekday: 'short',
+            day: '2-digit',
+            month: 'short',
+            year: 'numeric'
+        });
+
+        
+        cell3.style.whiteSpace = 'normal';
+        cell3.style.overflowWrap = 'break-word';
+        cell3.style.wordBreak = 'break-word';
+        cell3.setAttribute("class", "table-cell-wrap")
+        row.appendChild(cell3);
+
+        return row;
+    }
+
+
+    function compareArrays(arr1, arr2) {
+        // Check if lengths are different
+        if (arr1.length !== arr2.length) {
+            return false;
+        }
+
+        // Sort both arrays
+        const sortedArr1 = arr1.slice().sort();
+        const sortedArr2 = arr2.slice().sort();
+
+        // Compare elements
+        for (let i = 0; i < sortedArr1.length; i++) {
+            if (sortedArr1[i] !== sortedArr2[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function DocumentRepositoryGetDataFromAjaxCall(componentId) {
+
+        const leaderModal = document.querySelector('.leader-modal');
+        const modalContainer = document.querySelector('.leader-modal__container');
+        const loader = document.querySelector('.loader-sec');
+        const scrollHide = document.querySelector('body');
+
+        leaderModal.classList.remove('modal-hidden');
+        leaderModal.classList.add('active');
+        modalContainer.classList.add('active');
+        loader.style.visibility = "visible";
+        scrollHide.style.overflow = 'hidden';
+
+        var filterData = {
+            query: prevquery[componentId],
+            tags: doctags[componentId],
+            ItemsPerPage: itemsperpage[componentId],
+            CurrentPage: currentpage[componentId],
+        };
+
+
+        callapi = false;
+        let paginationElement = document.getElementById(componentId + "_pagination")
+        let filtrationElement = document.getElementById(componentId + "_filterproviderid")
+        let table = document.getElementById(componentId + "_table")
+        let noResultsRow = document.getElementById(componentId + "_noResultsRow");
+
+        $.ajax({
+            type: 'POST',
+            url: '/DocumentRepository/GetDocumentListRecordAfterFilterationPagination',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(filterData),
+            success: function (data) {
+
+                var parsedData = JSON.parse(data);
+
+                paginationElement?.setAttribute('current-page', currentpage[componentId]);
+                paginationElement?.setAttribute('total-items', parsedData.TotalItems);
+                paginationElement?.setAttribute('items-per-page', itemsperpage[componentId]);
+                filtrationElement?.setAttribute('current-page', currentpage[componentId]);
+                filtrationElement?.setAttribute('total-results', parsedData.TotalItems);
+                filtrationElement?.setAttribute('items-per-page', itemsperpage[componentId]);
+
+                var removableelements = table?.getElementsByClassName("removable_element");
+                for (var i = removableelements.length - 1; i >= 0; i--) {
+                    removableelements[i].parentNode.removeChild(removableelements[i]);
+                }
+                if (parsedData.DocumentRepositoryItems.length === 0) {
+                    noResultsRow.style.display = "flex";
+                    table.style.display = 'none';
+                }
+                else{
+                    noResultsRow.style.display = "none";
+                    table.style.display = '';
+                if (table) {
+                    for (var i = 0; i < parsedData.DocumentRepositoryItems.length; i++) {
+                        table.appendChild(DocumentRepositorycreateTableRow(parsedData.DocumentRepositoryItems[i]));
+                    }
+                }
+                }
+
+                leaderModal.classList.add('modal-hidden');
+                leaderModal.classList.remove('active');
+                modalContainer.classList.remove('active');
+                loader.style.visibility = "hidden";
+                scrollHide.style.overflow = 'auto';
+
+                UpdateOfficeRegulatoryActionList(componentId)
+                tableupdated[componentId] = false
+            },
+            error: function (xhr, status, error) {
+                console.error('Error:', error);
+            }
+        });
+ 
+    }
+</script></span>
+	</span>
+
+
+
+        <adgm-footer>
+                        <adgm-footer-category>
+                            <h3 slot="title">About</h3>
+                                    <a href='/about' >Overview</a>
+                                    <a href='/about/jurisdiction' >Jurisdiction</a>
+                                    <a href='/about/authorities' >Authorities</a>
+                                    <a href='/initiatives' >Initiatives</a>
+                                    <a href='https://www.adgmacademy.com'  target="_blank" >ADGM Academy</a>
+                                    <a href='https://disputeresolution.adgm.com'  target="_blank" >Dispute Resolution</a>
+                                    <a href='/careers' >Careers</a>
+                        </adgm-footer-category>
+                        <adgm-footer-category>
+                            <h3 slot="title">Business</h3>
+                                    <a href='/business' >Overview</a>
+                                    <a href='/business-areas' >Business areas</a>
+                                    <a href='/setting-up' >Setting up</a>
+                                    <a href='/operating-in-adgm' >Operating in</a>
+                                    <a href='/public-registers' >Public registers</a>
+                                    <a href='/legal-framework' >Legal framework</a>
+                        </adgm-footer-category>
+                        <adgm-footer-category>
+                            <h3 slot="title">eServices</h3>
+                                    <a href='/operating-in-adgm/e-services/accessrp' >AccessRP</a>
+                                    <a href='/operating-in-adgm/e-services/accessadgm-government-services-portal' >ACCESSADGM</a>
+                                    <a href='/operating-in-adgm/e-services/online-registry-solution' >Online Registry Solution</a>
+                                    <a href='/operating-in-adgm/e-services/electronic-prudential-reporting' >Electronic Prudential Reporting</a>
+                                    <a href='/operating-in-adgm/e-services/fsra-connect' >FSRA Connect</a>
+                        </adgm-footer-category>
+                        <adgm-footer-category>
+                            <h3 slot="title">Discover</h3>
+                                    <a href='/media' >Media</a>
+                                    <a href='/media/announcements' >News</a>
+                                    <a href='/events' >Events</a>
+                                    <a href='/spotlight' >Spotlight</a>
+                                    <a href='/think-by-adgm' >Podcasts</a>
+                                    <a href='/media/publications' >Publications</a>
+                                    <a href='/document-repository' >Documents</a>
+                        </adgm-footer-category>
+                        <adgm-footer-category>
+                            <h3 slot="title">Contact &amp; Support</h3>
+                                    <a href='/contact-us/make-an-enquiry' >Make an enquiry</a>
+                                    <a href='/contact-us/speaking-up' >Speaking Up</a>
+                                    <a href='/faqs' >Frequently Asked Questions</a>
+                        </adgm-footer-category>
+                <span slot="legalText">
+&#xA9; 2025 ADGM. All rights reserved.                </span>
+                <adgm-footer-legal-links slot="legalLinks">
+                            <a href='/sitemap' >Sitemap</a>
+                            <a href='/information/terms-and-conditions' >Terms and conditions</a>
+                            <a href='/information/privacy-policy' >Privacy policy</a>
+                            <a href='/information/cookies-policy' >Cookies policy</a>
+                </adgm-footer-legal-links>
+                <adgm-footer-social-links slot="socialLinks">
+                            <a href='https://www.linkedin.com/company/adgm' target="_blank">
+                                <adgm-icon icon="socialLinkedIn"></adgm-icon>
+                            </a>
+                            <a href='https://x.com/adglobalmarket'>
+                                <adgm-icon icon="socialTwitter"></adgm-icon>
+                            </a>
+                            <a href='https://www.instagram.com/adgm' target="_blank">
+                                <adgm-icon icon="socialInstagram"></adgm-icon>
+                            </a>
+                            <a href='https://www.youtube.com/abudhabiglobalmarket'>
+                                <adgm-icon icon="socialYouTube"></adgm-icon>
+                            </a>
+                </adgm-footer-social-links>
+        </adgm-footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="back-to-top">
+        <adgm-back-to-top>
+            <adgm-icon-button size="s" variant="tertiary" icon="chevronUpL">
+                <button class="button --variant-tertiary --size-s" type="button">
+                    <slot name="icon">
+                        <adgm-icon color="currentColor" icon="chevronUpL" size="s20"></adgm-icon>
+                    </slot>
+                </button>
+            </adgm-icon-button>
+        </adgm-back-to-top>
+    </div>
+<!-- Chatbot Implementation -->
+
+            
+        </adgm-page>
+    </adgm-application>
+        <adgm-cookie-notification class="cookie-hide">
+                <adgm-body>
+                    <p>We use cookies and similar technologies that are necessary to operate the website. Additional cookies are used to perform analysis of website usage. By continuing to use our website, you consent to our use of cookies. For more information, please read our <a href="/information/cookies-policy/">Cookies Policy</a>.</p>
+                </adgm-body>
+            <adgm-spacer height="rBodyXS"></adgm-spacer>
+            <adgm-flex gap="s8" direction="row">
+                    <adgm-button id="cookie-reject" size="s" outlined>Reject cookies</adgm-button>
+                    <adgm-button id="cookie-accept" size="s">Accept cookies</adgm-button>
+
+
+            </adgm-flex>
+        </adgm-cookie-notification>
+    <!--Footer Client Resources-->
+    <script defer="defer" src="/Util/Find/epi-util/find.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+</script>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+
+        <script src="/js/hideheaderfooter.js"></script>
+
+<script src="/Util/EPiServer.GoogleAnalytics/Tracking.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-E8VJ108T1K"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());gtag('config', 'G-E8VJ108T1K',);if(window.epiGat)epiGat({"downloads":true,"extensions":"7z|aac|arc|arj|asf|avi|bin|csv|docx?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|png|pptx?|qtm?|ra(m|r)?|tar|tgz|txt|wav|wma|wmv|wpd|xlsx?|xml|z|zip","external":true,"externalAsViews":true,"mailto":true,"trackForms":true,"trackVisitorGroups":true,"trackLogins":true,"trackingOption":"Measurement"});</script></body>
+</html>
+<script>
+    // Get the button
+    var mybutton = document.querySelector('.back-to-top');
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() { scrollFunction() };
+
+    if (navigator.platform === "iPhone") {
+        document.body.classList?.add("iphone");
+    }
+
+    const cookieNotification = document.querySelector(".iphone adgm-cookie-notification");
+    if (cookieNotification) {
+        const cookieContainer = cookieNotification.shadowRoot.querySelector(".container");
+
+        if (cookieContainer) {
+            cookieContainer.style.marginBottom = "50%";
+        }
+    }
+
+    function scrollFunction() {
+        if (mybutton) {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document smoothly
+    if (mybutton !== null) {
+        mybutton.onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    }
+
+    const cookieReject = document.getElementById('cookie-reject');
+    const cookieAccept = document.getElementById('cookie-accept');
+    var showPopUp;
+    // Function to create a cookie with a 1-year expiry
+    function createCookie(cname, cvalue) {
+        var d = new Date();
+        d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // 1 year in milliseconds
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/;secure";
+    }
+
+    function getCookie(cookieName) {
+        if (typeof document !== "undefined") {  // Check if running in a browser environment
+            var cookieNameEQ = cookieName + '=';
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i].trim(); // Trim any leading spaces
+                if (c.indexOf(cookieNameEQ) === 0) {  // Check if the cookie starts with the cookie name
+                    return c.substring(cookieNameEQ.length, c.length);  // Return the cookie value
+                }
+            }
+            return '';  // Return empty string if cookie not found
+        }
+        return null;  // Return null if not in a browser environment
+    }
+    // Function to check the cookie and set the popup state
+    function checkCookieAndSetPopup() {
+        var cookieRejected = getCookie("cookies_rejected");
+        var cookieAccepted = getCookie("cookies_accepted");
+
+        if (cookieRejected || cookieAccepted) {
+            document.querySelector('.cookie-hide').style.visibility = "hidden";
+        } else {
+            document.querySelector('.cookie-hide').style.visibility = 'visible';
+        }
+    }
+
+    if (cookieReject !== null) {
+        cookieReject.addEventListener('click', () => {
+            document.querySelector('.cookie-hide').style.visibility = "hidden";
+            createCookie("cookies_rejected", "rejected")
+
+        })
+    }
+
+    if (cookieAccept !== null) {
+        cookieAccept.addEventListener('click', () => {
+            document.querySelector('.cookie-hide').style.visibility = "hidden";
+            createCookie("cookies_accepted", "accepted")
+        })
+    }
+    window.onload = checkCookieAndSetPopup;
+
+    const articleCards = document.querySelectorAll('adgm-article-card');
+    articleCards?.forEach((card, idx) => {
+        const links = card?.shadowRoot?.querySelectorAll('.content adgm-link-button');
+        var target = card?.getAttribute('target');
+        if (target !== undefined && target !== null) {
+            links[0]?.setAttribute('target', target);
+        }
+    })
+
+    const iconCards = document.querySelectorAll('adgm-icon-card');
+    iconCards?.forEach((card, idx) => {
+        const links = card?.shadowRoot?.querySelectorAll('.content adgm-link-button');
+        var target = card?.getAttribute('target');
+        if (target !== undefined && target !== null) {
+            links[0]?.setAttribute('target', target);
+        }
+    })
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const header = document.querySelector("adgm-navigation")
+                  if(header) {
+                    header.updateComplete.then(() => {
+                        header.firstUpdated();
+                    })
+                  }
+
+            function updateLinks(root) {
+            if (!root) return;
+
+            root.querySelectorAll('a[target="_blank"]').forEach(anchor => {
+              anchor.setAttribute("rel", "noopener");
+            });
+          }
+
+          function scanAllElements(root = document) {
+            root.querySelectorAll("*").forEach(element => {
+              element.querySelectorAll('a[target="_blank"]').forEach(anchor => {
+                anchor.setAttribute("rel", "noopener");
+              });
+              if (element.shadowRoot) {
+                updateLinks(element.shadowRoot); // Check for <a> in shadowRoot
+                scanAllElements(element.shadowRoot); // Recursively scan deeper shadow DOMs
+              }
+            });
+          }
+
+      // Initial scan for all elements in the page
+      
+
+      setTimeout(() => {
+        scanAllElements()
+      });
+
+      // Watch for dynamically added elements
+      const observer = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+          mutation.addedNodes.forEach(node => {
+            if (node.nodeType === 1) { // Ensure it's an element
+               setTimeout(() => {
+                scanAllElements(node)
+              });
+            }
+          });
+        });
+      });
+
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+
+</script>

@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Articles of Association",
+    "exemplars": [
+      "Articles of Association of",
+      "ADGM Companies Regulations - Articles",
+      "Share capital, directors, meetings"
+    ]
+  },
+  {
+    "label": "Memorandum of Association",
+    "exemplars": [
+      "Memorandum of Association of",
+      "objects of the company",
+      "subscriber"
+    ]
+  },
+  {
+    "label": "Board Resolution",
+    "exemplars": ["Board Resolution", "resolved that", "authorized signatory"]
+  },
+  {
+    "label": "Shareholder Resolution",
+    "exemplars": [
+      "Shareholder Resolution",
+      "unanimous written resolution",
+      "members resolve"
+    ]
+  },
+  {
+    "label": "Incorporation Application Form",
+    "exemplars": [
+      "Application for incorporation",
+      "proposed company name",
+      "registered office address"
+    ]
+  },
+  {
+    "label": "UBO Declaration Form",
+    "exemplars": [
+      "Ultimate Beneficial Owner",
+      "UBO declaration",
+      "beneficial ownership"
+    ]
+  },
+  {
+    "label": "Register of Members and Directors",
+    "exemplars": [
+      "Register of Members",
+      "Register of Directors",
+      "statutory register"
+    ]
+  },
+  {
+    "label": "Change of Registered Address Notice",
+    "exemplars": [
+      "Change of registered address",
+      "notice of change of address",
+      "registered office"
+    ]
+  }
+]

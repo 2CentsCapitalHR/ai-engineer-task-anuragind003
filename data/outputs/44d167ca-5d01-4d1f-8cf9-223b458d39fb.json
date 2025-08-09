@@ -1,0 +1,108 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 3,
+  "required_documents": 5,
+  "missing_documents": [
+    "UBO Declaration Form",
+    "Register of Members and Directors"
+  ],
+  "issues_found": [
+    {
+      "document": "Articles of Association",
+      "section": "",
+      "issue": "Jurisdiction references non-ADGM courts.",
+      "severity": "High",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law. ADGM gui",
+          "source_url": null
+        }
+      ],
+      "suggestion": "Specify ADGM Courts as the governing jurisdiction.",
+      "source_filename": "sample_articles_of_association.docx"
+    },
+    {
+      "document": "Articles of Association",
+      "section": "",
+      "issue": "Missing explicit signatory section.",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law. ADGM gui",
+          "source_url": null
+        }
+      ],
+      "suggestion": "Add signatory block with name, title, date, and authorized signature.",
+      "source_filename": "sample_articles_of_association.docx"
+    },
+    {
+      "document": "Articles of Association",
+      "section": "",
+      "issue": "Document does not explicitly reference ADGM.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law. ADGM gui",
+          "source_url": null
+        }
+      ],
+      "suggestion": "Add a clause clarifying that the company is incorporated under ADGM regulations.",
+      "source_filename": "sample_articles_of_association.docx"
+    },
+    {
+      "document": "Board Resolution",
+      "section": "",
+      "issue": "Document does not explicitly reference ADGM.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law. ADGM gui",
+          "source_url": null
+        }
+      ],
+      "suggestion": "Add a clause clarifying that the company is incorporated under ADGM regulations.",
+      "source_filename": "sample_board_resolution.docx"
+    }
+  ],
+  "generated_files": {
+    "annotated_docx": "sample_articles_of_association_reviewed.docx, sample_board_resolution_reviewed.docx, sample_memorandum_of_association_reviewed.docx",
+    "report_json": "44d167ca-5d01-4d1f-8cf9-223b458d39fb.json"
+  },
+  "task_id": "44d167ca-5d01-4d1f-8cf9-223b458d39fb",
+  "checklist_items": [
+    {
+      "name": "Articles of Association",
+      "rationale": "Sets internal governance, required for incorporation dossier.",
+      "source_url": "https://en.adgm.thomsonreuters.com/rulebook/7-company-incorporation-package",
+      "present": true
+    },
+    {
+      "name": "Memorandum of Association",
+      "rationale": "States company objects and capital details.",
+      "source_url": "https://www.adgm.com/registration-authority/registration-and-incorporation",
+      "present": true
+    },
+    {
+      "name": "Board Resolution",
+      "rationale": "Approves incorporation and authorized signatories.",
+      "source_url": "https://assets.adgm.com/download/assets/adgm-ra-resolution-multipleincorporate-shareholders-LTDincorporationv2.docx/186a12846c3911efa4e6c6223862cd87",
+      "present": true
+    },
+    {
+      "name": "UBO Declaration Form",
+      "rationale": "Ultimate Beneficial Ownership disclosure is mandatory.",
+      "source_url": "https://www.adgm.com/registration-authority/registration-and-incorporation",
+      "present": false
+    },
+    {
+      "name": "Register of Members and Directors",
+      "rationale": "Statutory registers maintained at incorporation and thereafter.",
+      "source_url": "https://en.adgm.thomsonreuters.com/rulebook/7-company-incorporation-package",
+      "present": false
+    }
+  ]
+}

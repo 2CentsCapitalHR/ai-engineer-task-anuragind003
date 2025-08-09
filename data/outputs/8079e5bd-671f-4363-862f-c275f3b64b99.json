@@ -1,0 +1,177 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 3,
+  "required_documents": 5,
+  "missing_documents": [
+    "Shareholder Resolution(s)",
+    "Passport Copies/Emirates IDs",
+    "Proof of Registered Address",
+    "Register of Directors (if corporate shareholder)"
+  ],
+  "issues_found": [
+    {
+      "document": "Articles of Association of SampleCo LTD",
+      "section": "2. Jurisdiction",
+      "issue": "Incorrect Jurisdiction Clause",
+      "severity": "High",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Specify ADGM Courts as the jurisdiction.",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": "Compliance",
+      "groundedness": 1.0,
+      "suggestion_long": "The clause should be amended to reflect that the jurisdiction for disputes shall be the ADGM Courts, as per ADGM Companies Regulations 2020, Article 6, unless otherwise specified in accordance with ADGM law. The current clause incorrectly defaults to the UAE Federal Courts, which is not the standard for ADGM-incorporated companies."
+    },
+    {
+      "document": "Articles of Association of SampleCo LTD",
+      "section": "3. Governance",
+      "issue": "By-laws adoption process undefined.",
+      "severity": "Low",
+      "evidence": [],
+      "suggestion": "Define by-law adoption process and authority.",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": "Governance",
+      "groundedness": 0.5,
+      "suggestion_long": "While the board can adopt by-laws, clarity on the process, required approvals, and scope of by-laws will improve governance. Explicitly stating the process by which by-laws are adopted including but not limited to voting requirements. Consider specifying limitations of by-laws and the authority responsible for approval."
+    },
+    {
+      "document": "Board Resolution",
+      "section": "General",
+      "issue": "Lack of Specificity in Authorized Signatories",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "Company incorporation documents should include Articles of Association, Memorandum of Association, Board or Shareholder resolutions as applicable, UBO declaration forms, and a Register of Members and Directors. Signing and execution: Corporate documents should include clear signatory blocks including authorized signatory name, title, date, and signature.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Specify authorized signatories' names.",
+      "source_filename": "sample_board_resolution.docx",
+      "category": "Compliance",
+      "groundedness": 0.8,
+      "suggestion_long": "The resolution should explicitly state the names and titles of the individuals who are being appointed as authorized signatories, rather than a general statement. This avoids ambiguity and ensures clear accountability. Add signatory blocks with name, title, date and signature."
+    },
+    {
+      "document": "Board Resolution",
+      "section": "General",
+      "issue": "Missing Details on Application Authorization",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "adgm-ra-resolution-multiple-incorporate-shareholders-LTD-incorporation-v2.docx#chunk-0",
+          "snippet": "IT WAS FURTHER RESOVED, that {insert authorised persons name(s)} is/are, and each acting alone is, hereby authorized to do and perform any and all such acts, including execution of any and all documents and certificates, as said person shall deem necessary or advisable, to carry out the purposes of the foregoing resolutions to complete the incorporation process with the ADGM RA Signature of Incorporating Shareholders",
+          "source_url": "adgm-ra-resolution-multiple-incorporate-shareholders-LTD-incorporation-v2.docx"
+        }
+      ],
+      "suggestion": "Specify application types authorized.",
+      "source_filename": "sample_board_resolution.docx",
+      "category": "Best Practice",
+      "groundedness": 0.6,
+      "suggestion_long": "While authorizing directors to submit applications is acceptable, it's best practice to specify the types of applications they are authorized to submit (e.g., application for trade license, application for registration).  This adds clarity and prevents potential misinterpretations."
+    },
+    {
+      "document": "Board Resolution",
+      "section": "General",
+      "issue": "Lack of Share Capital Information",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "adgm-ra-resolution-multiple-incorporate-shareholders-LTD-incorporation-v2.docx#chunk-0",
+          "snippet": "Authorised Share Capital IT WAS RESOLVED that the amount of the authorised share capital of the company shall be as follows: [xxxx] USD Share Capital IT WAS RESOLVED that the proposed issued share capital of the company shall be as follows: Shareholders The issued share capital shall be structured as follows.",
+          "source_url": "adgm-ra-resolution-multiple-incorporate-shareholders-LTD-incorporation-v2.docx"
+        }
+      ],
+      "suggestion": "Include authorized share capital details.",
+      "source_filename": "sample_board_resolution.docx",
+      "category": "Compliance",
+      "groundedness": 0.7,
+      "suggestion_long": "The resolution should include a statement confirming details of the authorised share capital, as well as details of issued share capital, including currency, amount, and allocation to shareholders. This is a requirement for company incorporation."
+    },
+    {
+      "document": "Memorandum of Association of SampleCo LTD",
+      "section": "Objects",
+      "issue": "The object clause 'To conduct lawful business activities permitted by ADGM' is too broad and lacks specificity.",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM guidance on corporate documentation: Company incorporation documents should include Articles of Association, Memorandum of Association, Board or Shareholder resolutions as applicable, UBO declaration forms, and a Register of Members and Directors. Signing and execution: Corporate documents should include clear signatory blocks including authorized signatory name, title, date, and signature.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Specify the company's business activities.",
+      "source_filename": "sample_memorandum_of_association.docx",
+      "category": "Compliance",
+      "groundedness": 0.8,
+      "suggestion_long": "Replace the general statement with a clear and concise description of the company's specific business activities. For example, 'To engage in the business of [specific business activity 1], [specific business activity 2], and other related activities permitted by ADGM regulations.'"
+    },
+    {
+      "document": "Memorandum of Association of SampleCo LTD",
+      "section": "General",
+      "issue": "The clause 'The company is established under the Abu Dhabi Global Market (ADGM) Companies Regulations' is acceptable but lacks specifics.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "7-company-incorporation-package.txt#chunk-1",
+          "snippet": "7. The company incorporation package (1) This Rule applies to a company incorporation package. (2) The articles of association are viewed by selecting the \"articles of association\" link in the incorporation template. (3) Model articles can be viewed by selecting the \"model articles\" link in the incorporation template.",
+          "source_url": "https://en.adgm.thomsonreuters.com/rulebook/7-company-incorporation-package"
+        }
+      ],
+      "suggestion": "Add the year of the Companies Regulations.",
+      "source_filename": "sample_memorandum_of_association.docx",
+      "category": "Best Practice",
+      "groundedness": 0.6,
+      "suggestion_long": "Specify the year of the ADGM Companies Regulations under which the company is established for clarity. For example: 'The company is established under the Abu Dhabi Global Market (ADGM) Companies Regulations [Year].'"
+    }
+  ],
+  "generated_files": {
+    "annotated_docx": "sample_articles_of_association_reviewed.docx, sample_board_resolution_reviewed.docx, sample_memorandum_of_association_reviewed.docx",
+    "report_json": "8079e5bd-671f-4363-862f-c275f3b64b99.json"
+  },
+  "task_id": "8079e5bd-671f-4363-862f-c275f3b64b99",
+  "checklist_items": [
+    {
+      "name": "Shareholder Resolution(s)",
+      "rationale": "Resolutions from incorporating shareholders or existing shareholders (for amendments) are required to approve key decisions like incorporation, appointment of officers, adoption of articles, and authorization of individuals to act on behalf of the company.",
+      "source_url": "N/A (derived from context)",
+      "present": false
+    },
+    {
+      "name": "Articles of Association",
+      "rationale": "The Articles of Association define the internal rules and regulations governing the company's operations and relationship with its shareholders.",
+      "source_url": "N/A (derived from context)",
+      "present": true
+    },
+    {
+      "name": "Passport Copies/Emirates IDs",
+      "rationale": "Required for KYC (Know Your Customer) and identity verification of shareholders, directors, and authorized signatories.",
+      "source_url": "N/A (common incorporation requirement)",
+      "present": false
+    },
+    {
+      "name": "Proof of Registered Address",
+      "rationale": "Needed to verify the company's official registered office address within ADGM.",
+      "source_url": "N/A (common incorporation requirement)",
+      "present": false
+    },
+    {
+      "name": "Register of Directors (if corporate shareholder)",
+      "rationale": "If a shareholder is a body corporate, a register of its directors (or similar evidence of signing authority) is needed to demonstrate who is authorized to act on its behalf. Must not be older than three months.",
+      "source_url": "N/A (derived from context)",
+      "present": false
+    }
+  ],
+  "process_confidence": null,
+  "checklist_summary": "Company Incorporation: 3 of 5 required items are uploaded. Missing items: Shareholder Resolution(s), Passport Copies/Emirates IDs, Proof of Registered Address, and Register of Directors (if corporate shareholder).",
+  "doc_summaries": {
+    "sample_articles_of_association.docx": "This document outlines the Articles of Association for SampleCo LTD, detailing its incorporation as a limited company. While the company is incorporated, any legal disputes will fall under the jurisdiction of the UAE Federal Courts, indicating SampleCo LTD is likely operating within the UAE but governed by its own internal bylaws and meeting procedures.",
+    "sample_board_resolution.docx": "This Board Resolution of SampleCo LTD authorizes the company to proceed with incorporation formalities, likely within the ADGM jurisdiction, and designates authorized signatories for official documentation. The directors are further empowered to submit necessary applications related to the incorporation process within ADGM.",
+    "sample_memorandum_of_association.docx": "This Memorandum of Association establishes SampleCo LTD as a company operating within the Abu Dhabi Global Market (ADGM) framework, adhering to ADGM Companies Regulations.  The company's purpose is to conduct lawful business activities permitted by ADGM, with the undersigned subscribing to shares as founders."
+  }
+}

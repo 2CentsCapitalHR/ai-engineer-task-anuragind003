@@ -1,0 +1,93 @@
+{
+  "process": "Unknown",
+  "documents_uploaded": 3,
+  "required_documents": 0,
+  "missing_documents": [],
+  "issues_found": [
+    {
+      "document": "Articles of Association",
+      "section": "",
+      "issue": "Jurisdiction references non-ADGM courts.",
+      "severity": "High",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law. ADGM guidance on corporate documentation: Company incorporation documents should include Articles of Association, Memorandum of Association, Board or Shareholder resolu",
+          "source_url": null
+        }
+      ],
+      "suggestion": "Specify ADGM Courts as the governing jurisdiction. Suggested clause: 'This Agreement shall be governed by the laws of the Abu Dhabi Global Market (ADGM), and the courts of ADGM shall have exclusive jurisdiction.'",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": null,
+      "groundedness": null,
+      "suggestion_long": null
+    },
+    {
+      "document": "Articles of Association",
+      "section": "",
+      "issue": "Missing explicit signatory section.",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "guidance-and-policy-statements.txt#chunk-1",
+          "snippet": "ADFW 2025 RESOLVE 2025 27th Annual IBA Arbitration Day Conference Support Make an enquiry Speaking Up FAQs We are here to help At ADGM, we offer various support options, including contact details, FAQs, enquiry forms, and a whistleblowing form. View available support options Some of our FAQ topics Getting started Foundations regime Resolution for incorporation Existing auditors New auditors ACCESS",
+          "source_url": "https://www.adgm.com/legal-framework/guidance-and-policy-statements"
+        }
+      ],
+      "suggestion": "Add signatory block with name, title, date, and authorized signature. Example: 'Signed for and on behalf of the Company by: Name: __________  Title: __________  Date: __________  Signature: __________'",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": null,
+      "groundedness": null,
+      "suggestion_long": null
+    },
+    {
+      "document": "Articles of Association",
+      "section": "",
+      "issue": "Document does not explicitly reference ADGM.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "7-company-incorporation-package.txt#chunk-0",
+          "snippet": "7. The company incorporation package | Rulebook Skip to main content adgm.com ADGM LEGAL FRAMEWORK ABU DHABI GLOBAL MARKET FEDERAL LAW NO (8) OF 2004 FEDERAL DECREE NO (15) OF 2013 CABINET RESOLUTION NO (4) OF 2013 CABINET RESOLUTION NO. (41) OF 2023 CABINET RESOLUTION NO. 28 OF 2007 ABU DHABI LAW NO. (4) OF 2013 ABU DHABI LAW NO. (12) OF 2020 ADGM LEGAL FRAMEWORK COMMERCIAL LEGISLATION Regulation",
+          "source_url": "https://en.adgm.thomsonreuters.com/rulebook/7-company-incorporation-package"
+        }
+      ],
+      "suggestion": "Add a clause clarifying ADGM incorporation. Suggested wording: 'The Company is incorporated and existing under the Abu Dhabi Global Market (ADGM) Companies Regulations.'",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": null,
+      "groundedness": null,
+      "suggestion_long": null
+    },
+    {
+      "document": "Board Resolution",
+      "section": "",
+      "issue": "Document does not explicitly reference ADGM.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law. ADGM guidance on corporate documentation: Company incorporation documents should include Articles of Association, Memorandum of Association, Board or Shareholder resolu",
+          "source_url": null
+        }
+      ],
+      "suggestion": "Add a clause clarifying ADGM incorporation. Suggested wording: 'The Company is incorporated and existing under the Abu Dhabi Global Market (ADGM) Companies Regulations.'",
+      "source_filename": "sample_board_resolution.docx",
+      "category": null,
+      "groundedness": null,
+      "suggestion_long": null
+    }
+  ],
+  "generated_files": {
+    "annotated_docx": "sample_articles_of_association_reviewed.docx, sample_board_resolution_reviewed.docx, sample_memorandum_of_association_reviewed.docx",
+    "report_json": "577e8bc2-e9f0-45ca-a06b-4feebebc590d.json"
+  },
+  "task_id": "577e8bc2-e9f0-45ca-a06b-4feebebc590d",
+  "checklist_items": [],
+  "process_confidence": null,
+  "checklist_summary": "All items for process 'Unknown' are complete. No missing items were found.",
+  "doc_summaries": {
+    "sample_articles_of_association.docx": "Please provide the document content you would like me to summarize in the context of Abu Dhabi Global Market (ADGM). I need the text to understand what it's about and provide an accurate executive summary.",
+    "sample_board_resolution.docx": "Please provide the document content so I can write an executive summary for you. I need the text of the document to accurately summarize it within the ADGM context.",
+    "sample_memorandum_of_association.docx": "Please provide me with the document content you want me to summarize. I need the text of the document to create an executive summary focusing on the ADGM context. Once you provide the document, I will generate a 2-3 sentence summary."
+  }
+}

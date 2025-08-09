@@ -1,0 +1,78 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 1,
+  "required_documents": 4,
+  "missing_documents": [
+    "Resolution of Incorporating Shareholders",
+    "Shareholder Resolution (if applicable)",
+    "Register of Directors (Corporate Shareholder)"
+  ],
+  "issues_found": [
+    {
+      "document": "Articles of Association of SampleCo LTD",
+      "section": "2. Jurisdiction",
+      "issue": "The clause stipulates that disputes shall be subject to the UAE Federal Courts, which contradicts ADGM's jurisdiction.",
+      "severity": "High",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Specify ADGM Courts as the primary jurisdiction.",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": "Jurisdiction",
+      "groundedness": 1.0,
+      "suggestion_long": "Revise the clause to state that disputes shall be subject to the ADGM Courts, unless otherwise specified in accordance with ADGM law."
+    },
+    {
+      "document": "Articles of Association of SampleCo LTD",
+      "section": "3. Governance",
+      "issue": "The clause states that the board 'may' adopt by-laws, which might not fulfil mandatory requirements as set out in ADGM regulations. It is not a red flag, but could be clearer. More detail about the content and scope of the by-laws may be useful to demonstrate regulatory compliance.",
+      "severity": "Low",
+      "evidence": [],
+      "suggestion": "The board shall adopt by-laws in accordance with ADGM regulations.",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": "Governance",
+      "groundedness": 0.3,
+      "suggestion_long": "The board shall adopt by-laws as necessary to govern the company's operations, ensuring compliance with all applicable ADGM regulations and best practices. These by-laws shall include, but not be limited to, provisions on [list specific areas covered by by-laws, e.g., conflicts of interest, internal controls, etc.]."
+    }
+  ],
+  "generated_files": {
+    "annotated_docx": "sample_articles_of_association_reviewed.docx",
+    "report_json": "f81aa1b2-64d8-45de-8af6-e0dcc2787057.json"
+  },
+  "task_id": "f81aa1b2-64d8-45de-8af6-e0dcc2787057",
+  "checklist_items": [
+    {
+      "name": "Resolution of Incorporating Shareholders",
+      "rationale": "Required to document the decision to incorporate the company, appoint officers, adopt articles, and authorize share capital.",
+      "source_url": "N/A (Derived from context description)",
+      "present": false
+    },
+    {
+      "name": "Articles of Association",
+      "rationale": "Essential document outlining the rules and regulations governing the company's operations and internal management.",
+      "source_url": "N/A (Derived from context description)",
+      "present": true
+    },
+    {
+      "name": "Shareholder Resolution (if applicable)",
+      "rationale": "Required if the company already exists and is amending its Articles of Association.",
+      "source_url": "N/A (Derived from context description)",
+      "present": false
+    },
+    {
+      "name": "Register of Directors (Corporate Shareholder)",
+      "rationale": "Needed if a body corporate is a shareholder, to verify the signing authority of representatives.",
+      "source_url": "N/A (Derived from context description)",
+      "present": false
+    }
+  ],
+  "process_confidence": null,
+  "checklist_summary": "Your 'Company Incorporation' checklist is incomplete. You've uploaded 1 of 4 required items and are missing: Resolution of Incorporating Shareholders, Shareholder Resolution (if applicable), Register of Directors (Corporate Shareholder).",
+  "doc_summaries": {
+    "sample_articles_of_association.docx": "This document outlines the Articles of Association for SampleCo LTD, a limited company. While it specifies UAE Federal Courts for dispute resolution and details governance and meeting procedures, it does *not* appear to be directly governed by ADGM laws, given the court jurisdiction clause."
+  }
+}

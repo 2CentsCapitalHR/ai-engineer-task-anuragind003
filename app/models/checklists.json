@@ -1,0 +1,46 @@
+{
+  "Company Incorporation": [
+    {
+      "name": "Articles of Association",
+      "rationale": "Sets internal governance, required for incorporation dossier.",
+      "source_url": "https://en.adgm.thomsonreuters.com/rulebook/7-company-incorporation-package"
+    },
+    {
+      "name": "Memorandum of Association",
+      "rationale": "States company objects and capital details.",
+      "source_url": "https://www.adgm.com/registration-authority/registration-and-incorporation"
+    },
+    {
+      "name": "Board Resolution",
+      "rationale": "Approves incorporation and authorized signatories.",
+      "source_url": "https://assets.adgm.com/download/assets/adgm-ra-resolution-multipleincorporate-shareholders-LTDincorporationv2.docx/186a12846c3911efa4e6c6223862cd87"
+    },
+    {
+      "name": "UBO Declaration Form",
+      "rationale": "Ultimate Beneficial Ownership disclosure is mandatory.",
+      "source_url": "https://www.adgm.com/registration-authority/registration-and-incorporation"
+    },
+    {
+      "name": "Register of Members and Directors",
+      "rationale": "Statutory registers maintained at incorporation and thereafter.",
+      "source_url": "https://en.adgm.thomsonreuters.com/rulebook/7-company-incorporation-package"
+    }
+  ],
+  "Licensing": [
+    {
+      "name": "Incorporation Application Form",
+      "rationale": "Foundational application details for licensing processes.",
+      "source_url": "https://www.adgm.com/setting-up"
+    },
+    {
+      "name": "Board Resolution",
+      "rationale": "Approves obtaining the relevant licence.",
+      "source_url": "https://www.adgm.com/setting-up"
+    },
+    {
+      "name": "Compliance Policy",
+      "rationale": "Core compliance framework for regulated activities.",
+      "source_url": "https://www.adgm.com/legal-framework/guidance-and-policy-statements"
+    }
+  ]
+}

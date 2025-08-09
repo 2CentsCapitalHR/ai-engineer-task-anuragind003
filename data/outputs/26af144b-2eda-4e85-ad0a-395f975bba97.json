@@ -1,0 +1,219 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 3,
+  "required_documents": 6,
+  "missing_documents": [
+    "Incorporating Shareholder Resolution",
+    "Commercial License Application",
+    "Proof of Registered Office Address",
+    "Passport Copies (Shareholders and Directors)"
+  ],
+  "issues_found": [
+    {
+      "document": "Articles of Association of SampleCo LTD",
+      "section": "2. Jurisdiction",
+      "issue": "The clause specifies UAE Federal Courts for dispute resolution, which contradicts ADGM's jurisdiction.",
+      "severity": "High",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM Companies Regulations 2020, Article 6: The jurisdiction for companies incorporated in ADGM shall be the ADGM Courts, and disputes shall be governed under ADGM regulations unless otherwise specified in accordance with ADGM law.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Disputes shall be subject to the ADGM Courts.",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": "Jurisdiction",
+      "groundedness": 1.0,
+      "suggestion_long": "Any dispute arising out of or in connection with these Articles of Association, including any question regarding its existence, validity or termination, shall be subject to the exclusive jurisdiction of the ADGM Courts."
+    },
+    {
+      "document": "Articles of Association of SampleCo LTD",
+      "section": "3. Governance",
+      "issue": "The clause regarding the board adopting by-laws is permissible but should adhere to ADGM regulations, including proper record-keeping and accessibility of these by-laws to members.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM guidance on corporate documentation: Company incorporation documents should include Articles of Association, Memorandum of Association, Board or Shareholder resolutions as applicable, UBO declaration forms, and a Register of Members and Directors.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "The board may adopt by-laws in compliance with ADGM regulations.",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": "Governance",
+      "groundedness": 0.6,
+      "suggestion_long": "The board of directors may adopt by-laws for the regulation of the company's affairs, provided that such by-laws are consistent with the ADGM Companies Regulations and are made available to the company's members."
+    },
+    {
+      "document": "Articles of Association of SampleCo LTD",
+      "section": "4. Meetings",
+      "issue": "The clause stating that general meetings shall be called by the directors is permissible, but ADGM regulations also grant shareholders the right to call a general meeting under certain conditions. This right of shareholders should also be reflected.",
+      "severity": "Medium",
+      "evidence": [],
+      "suggestion": "General meetings shall be called by the directors or as otherwise permitted by ADGM regulations.",
+      "source_filename": "sample_articles_of_association.docx",
+      "category": "Meetings",
+      "groundedness": 0.4,
+      "suggestion_long": "General meetings shall be called by the directors. However, shareholders shall also have the right to call a general meeting, subject to and in accordance with the provisions of the ADGM Companies Regulations."
+    },
+    {
+      "document": "Board Resolution",
+      "section": "General",
+      "issue": "Missing details for authorized signatories.",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "Signing and execution: Corporate documents should include clear signatory blocks including authorized signatory name, title, date, and signature.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Specify the full name and title of the authorized signatories.",
+      "source_filename": "sample_board_resolution.docx",
+      "category": "Compliance",
+      "groundedness": 0.7,
+      "suggestion_long": "The resolution should explicitly state the full legal name, title (e.g., Director, Manager), and ideally a signature block with date for each authorized signatory. This ensures clarity and compliance with ADGM's documentation standards."
+    },
+    {
+      "document": "Board Resolution",
+      "section": "Incorporation Formalities",
+      "issue": "Lack of specificity regarding 'incorporation formalities'.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "registration-and-incorporation.txt#chunk-3",
+          "snippet": "Registration of ADGM establishments Registration of business names and maintenance of the public register of companies in ADGM Registration of post-incorporation documentation Registration of changes in business name particulars Registration of changes in directors, officers, shareholders and share capital Enforcement of ADGM companies regulations, Cancellation of Commercial Licences, prosecution and strike off Dissolution or restoration of ADGM establishments",
+          "source_url": "https://www.adgm.com/registration-authority/registration-and-incorporation"
+        }
+      ],
+      "suggestion": "Clarify what 'incorporation formalities' entail (e.g., filing documents, paying fees).",
+      "source_filename": "sample_board_resolution.docx",
+      "category": "Clarity",
+      "groundedness": 0.6,
+      "suggestion_long": "To enhance clarity, the resolution could list the specific actions included in 'incorporation formalities', such as 'filing the Articles of Association, registering the company name, paying the registration fees, and obtaining the commercial license'."
+    },
+    {
+      "document": "Board Resolution",
+      "section": "Application Submission",
+      "issue": "Lack of specificity regarding the applications being submitted.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "registration-and-incorporation.txt#chunk-2",
+          "snippet": "Forms All forms are made available on the ADGM Online Registry Solution . Should you require to submit hard copy paper form, please contact the Registration Authority by sending an email to ra@adgm.com Please note that filing of forms and supporting documents is accepted by the office of the Registration Authority in good faith without any need for the Registrar to inquire into the veracity and accuracy of every filing received by this office.",
+          "source_url": "https://www.adgm.com/registration-authority/registration-and-incorporation"
+        }
+      ],
+      "suggestion": "Specify the specific types of applications the directors are authorized to submit.",
+      "source_filename": "sample_board_resolution.docx",
+      "category": "Clarity",
+      "groundedness": 0.5,
+      "suggestion_long": "To enhance clarity, the resolution could list the specific types of applications the directors are authorized to submit, such as 'applications for commercial license, registration of business name, and registration of directors'."
+    },
+    {
+      "document": "Memorandum of Association of SampleCo LTD",
+      "section": "Objects",
+      "issue": "The object clause 'To conduct lawful business activities permitted by ADGM' is too broad and lacks specificity.",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM guidance on corporate documentation: Company incorporation documents should include Articles of Association, Memorandum of Association, Board or Shareholder resolutions as applicable, UBO declaration forms, and a Register of Members and Directors.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Specify the intended business activities.",
+      "source_filename": "sample_memorandum_of_association.docx",
+      "category": "Compliance",
+      "groundedness": 0.8,
+      "suggestion_long": "Replace the generic object clause with a clear and specific description of the business activities the company intends to undertake within ADGM. This provides clarity and avoids potential future disputes regarding the scope of the company's operations."
+    },
+    {
+      "document": "Memorandum of Association of SampleCo LTD",
+      "section": "Subscribers",
+      "issue": "The clause 'The undersigned agree to subscribe for shares' is vague. It doesn't specify the number of shares or the consideration.",
+      "severity": "Medium",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "ADGM guidance on corporate documentation: Company incorporation documents should include Articles of Association, Memorandum of Association, Board or Shareholder resolutions as applicable, UBO declaration forms, and a Register of Members and Directors.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Specify the number and class of shares subscribed for, and the consideration.",
+      "source_filename": "sample_memorandum_of_association.docx",
+      "category": "Compliance",
+      "groundedness": 0.7,
+      "suggestion_long": "Include the number of shares each subscriber agrees to purchase, the class of those shares (e.g., ordinary, preference), and the price or other consideration being provided for those shares. This ensures clarity and enforceability of the subscription agreement."
+    },
+    {
+      "document": "Memorandum of Association of SampleCo LTD",
+      "section": "Signing",
+      "issue": "The signature block 'Signed by: Authorized Person' lacks detail.",
+      "severity": "Low",
+      "evidence": [
+        {
+          "ref_id": "adgm_sample.txt#chunk-0",
+          "snippet": "Signing and execution: Corporate documents should include clear signatory blocks including authorized signatory name, title, date, and signature.",
+          "source_url": "adgm_sample.txt"
+        }
+      ],
+      "suggestion": "Include name, title, and date with signature.",
+      "source_filename": "sample_memorandum_of_association.docx",
+      "category": "Best Practice",
+      "groundedness": 0.9,
+      "suggestion_long": "The signature block should explicitly state the full name of the signatory, their official title within the company, and the date of signing, in addition to the signature itself. This ensures proper authentication and verification of the document."
+    }
+  ],
+  "generated_files": {
+    "annotated_docx": "sample_articles_of_association_reviewed.docx, sample_board_resolution_reviewed.docx, sample_memorandum_of_association_reviewed.docx",
+    "report_json": "26af144b-2eda-4e85-ad0a-395f975bba97.json"
+  },
+  "task_id": "26af144b-2eda-4e85-ad0a-395f975bba97",
+  "checklist_items": [
+    {
+      "name": "Shareholder Resolution (Amendments to Articles of Association)",
+      "rationale": "Required if amending existing Articles of Association, demonstrating shareholder consent to the changes.",
+      "source_url": "ADGM context",
+      "present": true
+    },
+    {
+      "name": "Incorporating Shareholder Resolution",
+      "rationale": "Confirms the decision to incorporate a company, appoint officers, adopt articles, and allocate share capital.",
+      "source_url": "ADGM context",
+      "present": false
+    },
+    {
+      "name": "Articles of Association",
+      "rationale": "A foundational document outlining the company's purpose, structure, and governance.",
+      "source_url": "ADGM context",
+      "present": true
+    },
+    {
+      "name": "Commercial License Application",
+      "rationale": "A formal application requesting permission to conduct commercial activities within the ADGM.",
+      "source_url": "ADGM context: Commercial Licensing Regulations",
+      "present": false
+    },
+    {
+      "name": "Proof of Registered Office Address",
+      "rationale": "Verifies the company's official physical location within the ADGM.",
+      "source_url": "ADGM context",
+      "present": false
+    },
+    {
+      "name": "Passport Copies (Shareholders and Directors)",
+      "rationale": "Provides identification for the individuals involved in the company.",
+      "source_url": "Common Company Formation Practices",
+      "present": false
+    }
+  ],
+  "process_confidence": null,
+  "checklist_summary": "The Company Incorporation process is currently 50% complete, with 3 out of 6 required documents uploaded.  Missing items include Incorporating Shareholder Resolution, Commercial License Application, Proof of Registered Office Address, and Passport Copies (Shareholders and Directors).",
+  "doc_summaries": {
+    "sample_articles_of_association.docx": "This document outlines the Articles of Association for SampleCo LTD, a limited company. While specifying incorporation and governance procedures, it notably defaults to UAE Federal Courts for dispute resolution, implying that despite the company's potential operations within ADGM, it's choosing a broader UAE legal framework for legal matters.",
+    "sample_board_resolution.docx": "This document is a board resolution from SampleCo LTD, approving the company's incorporation process, likely within the ADGM jurisdiction. It authorizes designated directors to handle application submissions and appoints signatories for the company, which is essential for operating legally in the ADGM framework.",
+    "sample_memorandum_of_association.docx": "This document is the Memorandum of Association for SampleCo LTD, formally establishing the company under the ADGM Companies Regulations. It outlines the company's commitment to conducting lawful business activities within the ADGM jurisdiction, with subscribed shares held by the undersigned."
+  }
+}
