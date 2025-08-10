@@ -329,6 +329,29 @@ Each issue includes:
 - **Suggestions**: Actionable recommendations
 - **Groundedness**: Confidence score (0.0-1.0) for AI-generated insights
 
+## 📸 Screenshots & Demo
+
+### Application Screenshots
+
+| Feature               | Screenshot                         |
+| --------------------- | ---------------------------------- |
+| **Document Upload**   | ![Uploads](assets/Uploads.png)     |
+| **Analysis Review**   | ![Review](assets/Review.png)       |
+| **Summary Dashboard** | ![Summary](assets/Summary.png)     |
+| **Download Results**  | ![Downloads](assets/Downloads.png) |
+
+### Demo Videos
+
+- **🎥 YouTube Demo**: [End-to-end walkthrough](https://youtu.be/8yImoXR274s)
+- **📥 Download Demo**: [ADGM-Corporate-Agent-Demo.mp4](assets/ADGM-Corporate-Agent-Demo.mp4)
+
+### Demo Highlights
+
+- **Document Processing**: Watch the system analyze multiple ADGM documents simultaneously
+- **Compliance Checking**: See real-time RAG-powered compliance verification
+- **Issue Detection**: Observe AI-generated insights with regulatory citations
+- **Report Generation**: View comprehensive JSON reports and annotated documents
+
 ## 🔧 Configuration & Customization
 
 ### Adding New Document Types
